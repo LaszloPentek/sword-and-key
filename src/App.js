@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import NewGame from './Components/NewGame/NewGame';  
+import Game from './Components/Game/Game'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <h1>Sword And Key</h1>
+      <ul>
+        <li><a src="#">Új játék</a></li>
+        <li><a src="#">Kilépés</a></li>
+      </ul> */}
+      {/* <NewGame/> */}
+      {/* <Game/> */}
     </div>
   );
 }
